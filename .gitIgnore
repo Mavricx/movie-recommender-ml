@@ -1,0 +1,10 @@
+# Ignore dataset files
+tmdb_5000_credits.csv
+tmdb_5000_movies.csv
+
+# Optional: Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Optional: Ignore system or temp files
+*.DS_Store
+*.tmp
