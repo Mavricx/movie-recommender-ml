@@ -1,7 +1,6 @@
 # ---------------------------
-# Python virtual environment
+# Python virtual environments
 # ---------------------------
-movie-recommender-system/
 venv/
 env/
 .venv/
@@ -22,7 +21,6 @@ __pycache__/
 # ---------------------------
 .ipynb_checkpoints/
 
-
 # ---------------------------
 # IDE / Editor settings
 # ---------------------------
@@ -35,4 +33,14 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
+# ---------------------------
+# Data & model files (keep local)
+# ---------------------------
+
 *.pkl
+
+
+# ---------------------------
+# Environment variables
+# ---------------------------
+.env
