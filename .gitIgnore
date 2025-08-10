@@ -1,10 +1,36 @@
-# Ignore dataset files
-tmdb_5000_credits.csv
-tmdb_5000_movies.csv
+# ---------------------------
+# Python virtual environment
+# ---------------------------
+movie-recommender-system/
+venv/
+env/
+.venv/
 
-# Optional: Ignore Jupyter checkpoints
+# ---------------------------
+# Python cache & temp files
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.DS_Store
+
+# ---------------------------
+# Jupyter Notebook checkpoints
+# ---------------------------
 .ipynb_checkpoints/
 
-# Optional: Ignore system or temp files
-*.DS_Store
-*.tmp
+
+# ---------------------------
+# IDE / Editor settings
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# OS-specific files
+# ---------------------------
+Thumbs.db
+.DS_Store
